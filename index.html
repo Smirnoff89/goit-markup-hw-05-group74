@@ -40,7 +40,7 @@
         <section class="hero">
             <div class="container"> 
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="hero-btn btn">Замовити послугу</button>
+                <button type="button" class="hero-btn btn" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <section class="items">
@@ -190,5 +190,14 @@
             </div>
         </div>
     </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-close" data-modal-close><svg width="20" , height="20"
+                        class="barbers-soc-icons">
+                        <use href="./img/icons.svg.svg#icon-twitter"></use>
+                    </svg>
+                </button>
+            </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
